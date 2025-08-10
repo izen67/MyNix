@@ -10,12 +10,15 @@
      ./hardware-configuration.nix
      inputs.home-manager.nixosModules.default
      ./modules/apps.nix
-     ./modules/system.nix
-     ./modules/desktop.nix
+     ./modules/kde.nix
      ./modules/gaming.nix
+     ./modules/locale.nix
      ./modules/mounts.nix
      ./modules/network.nix
      ./modules/nvidia.nix
+     ./modules/sound.nix
+     ./modules/system.nix
+     ./modules/users.nix
      ./modules/vms.nix
     ];
 
