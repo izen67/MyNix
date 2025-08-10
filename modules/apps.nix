@@ -7,7 +7,6 @@
     git
     mpv
     vesktop
-    spotify
     jellyfin-media-player
     libreoffice-fresh
     haruna

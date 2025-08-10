@@ -22,5 +22,7 @@
     kdePackages.kate
     libsForQt5.qtstyleplugin-kvantum
     kdePackages.qtstyleplugin-kvantum
+    kdePackages.plasma-firewall
+    plasma-panel-colorizer
   ];
 }
