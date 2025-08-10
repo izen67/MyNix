@@ -13,10 +13,14 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
+  environment.variables.QT_QPA_PLATFORMTHEME = "qt5ct";
+
   environment.systemPackages = with pkgs; [
     papirus-icon-theme
     kdePackages.sddm-kcm
     libunity
     kdePackages.kate
+    libsForQt5.qtstyleplugin-kvantum
+    kdePackages.qtstyleplugin-kvantum
   ];
 }
