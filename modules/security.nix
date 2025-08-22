@@ -1,7 +1,8 @@
 { config, pkgs, ... }:
 
 {
-  environment.systemPackages = with pkgs; [
-    ufw
-  ];
+networking.firewall = {
+  enable = true;
+};
+
 }
