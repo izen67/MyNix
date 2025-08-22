@@ -15,6 +15,15 @@
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
+  #THIS IS NEEDED IF SOUND STARTS LAGGING AT HIGH CPU USAGE
+  services.pipewire.extraConfig.pipewire."92-low-latency" = {
+    "context.properties" = {
+      "default.clock.rate" = 48000;
+      "default.clock.quantum" = 800;
+      "default.clock.min-quantum" = 512;
+      "default.clock.max-quantum" = 1024;
+    };
+  };
 
   #stop crackling sound from speakers
   boot.kernelModules = [ "snd_hda_intel" ];
