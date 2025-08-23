@@ -22,6 +22,7 @@
      ./modules/vms.nix
      ./modules/spicetify.nix
      ./modules/security.nix
+     ./modules/sddm.nix
     ];
 
   # Allow unfree packages
