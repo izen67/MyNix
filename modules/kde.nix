@@ -23,5 +23,6 @@
     kdePackages.qtstyleplugin-kvantum
     kdePackages.plasma-firewall
     plasma-panel-colorizer
+    kdePackages.dolphin-plugins
   ];
 }
