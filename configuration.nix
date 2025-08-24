@@ -24,6 +24,7 @@
      ./modules/security.nix
      ./modules/sddm.nix
      ./modules/printing.nix
+     ./modules/bluetooth.nix
     ];
 
   # Allow unfree packages
