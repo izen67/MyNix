@@ -1,18 +1,18 @@
 { config, pkgs, ... }:
 
 {
-hardware.bluetooth = {
+ hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
     settings = {
         General = {
             Experimental = true; # Show battery charge of Bluetooth devices
-            Enable = "Source,Sink,Media,Socket"; # May be unnecessary
+            Enable = "Source,Sink,Media,Socket"; # A2DP Sink
             };
         };
     };
 
-systemd.user.services.mpris-proxy = {
+ systemd.user.services.mpris-proxy = {
     description = "Mpris proxy";
     after = [ "network.target" "sound.target" ];
     wantedBy = [ "default.target" ];
