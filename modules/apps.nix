@@ -19,5 +19,6 @@
     vscode-fhs
     nmap
     lmstudio
+    unrar
   ];
 }
