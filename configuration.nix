@@ -20,7 +20,6 @@
      ./modules/system.nix
      ./modules/users.nix
      ./modules/vms.nix
-     #./modules/spicetify.nix
      ./modules/security.nix
      ./modules/sddm.nix
      ./modules/printing.nix
