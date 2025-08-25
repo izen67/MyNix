@@ -20,5 +20,6 @@
     nmap
     lmstudio
     unrar
+    spotify
   ];
 }
