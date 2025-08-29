@@ -2,6 +2,7 @@
 
 {
   programs.firefox.enable = true;
+  services.flatpak.enable = true;
   environment.systemPackages = with pkgs; [
     wget
     git
@@ -21,5 +22,6 @@
     lmstudio
     unrar
     spotify
+    vivaldi
   ];
 }
