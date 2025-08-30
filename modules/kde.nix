@@ -24,5 +24,6 @@
     kdePackages.plasma-firewall
     plasma-panel-colorizer
     kdePackages.dolphin-plugins
+    kdePackages.kcalc
   ];
 }
